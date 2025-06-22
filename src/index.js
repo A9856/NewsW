@@ -156,6 +156,7 @@ import ReactDOM from "react-dom/client"
 //import App from "./FunctionalComponents/RoutersExample/App"
 //import Parent from "./ClassComponents/PureComponent/Parent"
 import MaterialUIExample from "./FunctionalComponents/MaterialUIExample"
+import { BrowserRouter } from "react-router"
 // import BootStrap from "./FunctionalComponents/BootStrap"
 //import Paragraph from "./FunctionalComponents/Paragraph"
 //import InputF from "./ClassComponents/InputF"
@@ -174,7 +175,10 @@ root5.render(
                 {/* <BootStrap/> */}
                 {/* <Boot/> */}
                 {/* <Paragraph/> */}
-                <MaterialUIExample/>
+                <BrowserRouter basename="/News/">
+                 <MaterialUIExample/>
+                </BrowserRouter>
+               
                 {/* <App/> */}
                 {/* <Parent/> */}
                 {/* <Parent/> */}
