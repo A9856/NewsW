@@ -1,0 +1,23 @@
+import React, { useContext } from 'react'
+import Child2 from './Child2'
+import { NumberContext } from './Parent'
+export default function Child1() {
+  let{state,dispatch}=useContext(NumberContext)
+  return (
+   <>
+   <h3>This is Child1 Component</h3>
+    <h3>Num1={state.num1}</h3>
+               <button onClick={() => dispatch({ type: "INC_NUM1" })}>Increment Num1</button>
+               <button onClick={() => dispatch({ type: "DEC_NUM1" })}>decrement Num1</button>
+               <h3>Num2={state.num2}</h3>
+               <button onClick={() => dispatch({ type: "INC_NUM2" })}>Increment Num2</button>
+               <button onClick={() => dispatch({ type: "DEC_NUM2" })}>decrement Num2</button>
+               <hr/>
+               <NumberContext.Provider value={{ state, dispatch }}>
+                   <Child2 />
+               </NumberContext.Provider>
+  
+
+   </>
+  )
+}

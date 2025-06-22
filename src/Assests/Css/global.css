@@ -1,0 +1,104 @@
+
+
+/* In Global Css use component css and Global all css tag use in index.js  direct import */
+
+/* h1{
+    background-color: black;
+    color:white;padding: 10;text-align: center;
+}
+h2{
+    background-color: magenta;text-align: center
+}            */
+/* p{
+    background-color: green;padding: 10;text-align:justify;color:white;
+} */
+ /* *{
+    margin: auto;
+}
+.main{
+    width: 100vw;height: 100vh;
+}
+.center{
+    width:80%;
+    margin: auto;
+}  */
+/* Hide dropdown by default */
+ /* .dropdown-menu ul {
+    display: none;
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+}  */
+
+/* Show dropdown when parent <li> is hovered */
+ /* .dropdown-menu:hover ul {
+    display: block;
+}  */
+
+/* Style anchor inside dropdown */
+/* .dropdown-menu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;  */
+    /* color: black; */
+
+
+/* Change background color of <a> on hover */
+/* .dropdown ul li a:hover {
+    background-color: darkslategray;color:aqua;
+}  */
+/* input{
+    width:99%;padding:10px;margin-bottom: 10px;
+    
+}
+button{
+    width:99%;padding:10px;margin-bottom: 10px;
+}
+h1,h2{
+    margin-bottom: 10px;padding: 10px,10px;
+} */
+ /* .img1{
+    float: right;
+ }  */
+
+ .center p {
+    margin: auto;
+    width:90%;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+.first,.second {
+    width: 100%;
+}
+.first {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.center button {
+    margin-left: 80px;
+    background:linear-gradient(to right,rgb(255, 0, 221),gray);
+    color: white;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;font-size: 1.5rem;
+    padding: 20px;
+}
+.second {
+    height: 92%;
+}
+.second p {
+    background-color: rgba(0, 255, 238, 0.668);
+    color:black;font-family: serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.icon {
+    float: right;
+    cursor: pointer;
+}

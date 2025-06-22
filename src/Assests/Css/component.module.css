@@ -1,0 +1,10 @@
+/* .test{
+    background-color:blueviolet;padding: 10;text-align:justify;color:white;
+}  */
+.center button {
+    margin-left: 80px;
+    background:linear-gradient(to right,rgb(93, 0, 255),gray);
+    color: white;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;font-size: 1.5rem;
+    padding: 20px;
+}
