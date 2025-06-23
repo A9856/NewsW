@@ -25,29 +25,48 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import a from "../Assests/images/a.png"
+import b1 from "../Assests/images/b.jpg"
+import b2 from "../Assests/images/b1.jpg"
+import b3 from "../Assests/images/b2.webp"
+import b4 from "../Assests/images/b3.jpg"
+import b5 from "../Assests/images/b4.jpg"
+import b6 from "../Assests/images/b5.webp"
+import b7 from "../Assests/images/b6.webp"
+import b8 from "../Assests/images/b7.webp"
+import b9 from "../Assests/images/b8.webp"
+import b10 from "../Assests/images/b9.webp"
+import b11 from "../Assests/images/b10.jpg"
+import b12 from "../Assests/images/b11.png"
+import b13 from "../Assests/images/b12.webp"
+import i from "../Assests/images/b13.avif"
+import i2 from "../Assests/images/i.webp"
+import i3 from "../Assests/images/i2.webp"
+import i4 from "../Assests/images/i3.webp"
+import i5 from "../Assests/images/i4.jpg"
+import i6 from "../Assests/images/i5.webp"
 const pages = ['Home', 'About', 'Shop', 'Feature', 'Services', 'ContactUS',];
 const settings = ['Profile', 'Cart', 'Checkout', 'Logout'];
 var items = [
     { pic: a },
-    { pic: "/Images/b1.jpg" },
-    { pic: "/Images/b2.webp" },
-    { pic: "/Images/b3.jpg" },
-    { pic: "/Images/b4.jpg" },
-    { pic: "/Images/b5.webp" },
-    { pic: "/Images/b6.webp" },
-    { pic: "/Images/b7.webp" },
-    { pic: "/Images/b8.webp" },
-    { pic: "/Images/b9.webp" },
-    { pic: "/Images/b10.jpg" },
-    { pic: "/Images/b11.png" },
-    { pic: "/Images/b12.webp" },
-    { pic: "/Images/b13.avif" },
-    { pic: "/Images/i.webp" },
-    { pic: "/Images/i2.webp" },
-    { pic: "/Images/i3.webp" },
-    { pic: "/Images/i4.jpg" },
-    { pic: "/Images/i5.webp" },
-    { pic: "/Images/i6.jpeg" }
+    { pic: b1 },
+    { pic: b2 },
+    { pic: b3 },
+    { pic: b4 },
+    { pic: b5 },
+    { pic: b6 },
+    { pic: b7 },
+    { pic: b8 },
+    { pic: b9 },
+    { pic: b10 },
+    { pic: b11 },
+    { pic: b12 },
+    { pic: b13 },
+    { pic: i },
+    { pic: i2 },
+    { pic: i3 },
+    { pic: i4 },
+    { pic: i5 },
+    { pic: i6 }
 ]
 // function Item(props)
 // {
@@ -59,34 +78,34 @@ var items = [
 export default function MaterialUIExample() {
     let data = [
         { id: 1, name: "Product1", basePrice: 2400, discount: 50, finalPrice: 1200, pic: a },
-        { id: 2, name: "Product2", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b1.jpg" },
-        { id: 3, name: "Product3", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b2.webp" },
-        { id: 4, name: "Product4", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b3.jpg" },
-        { id: 5, name: "Product5", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b4.jpg" },
-        { id: 6, name: "Product6", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b5.webp" },
-        { id: 7, name: "Product7", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b6.webp" },
-        { id: 8, name: "Product8", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b7.webp" },
-        { id: 9, name: "Product9", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b8.webp" },
-        { id: 10, name: "Product10", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b9.webp" },
-        { id: 11, name: "Product11", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b10.jpg" },
-        { id: 12, name: "Product12", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b11.png" },
-        { id: 13, name: "Product13", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b12.webp" },
-        { id: 14, name: "Product14", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b13.avif" },
-        { id: 15, name: "Product15", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/i.webp" },
-        { id: 16, name: "Product16", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/i2.webp" },
-        { id: 17, name: "Product17", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/i3.webp" },
-        { id: 18, name: "Product18", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/i4.jpg" },
-        { id: 19, name: "Product19", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/i5.webp" },
-        { id: 20, name: "Product20", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/i6.jpeg" }
+        { id: 2, name: "Product2", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b1 },
+        { id: 3, name: "Product3", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b2 },
+        { id: 4, name: "Product4", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b3 },
+        { id: 5, name: "Product5", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b4 },
+        { id: 6, name: "Product6", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b5 },
+        { id: 7, name: "Product7", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b6 },
+        { id: 8, name: "Product8", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b7 },
+        { id: 9, name: "Product9", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b8 },
+        { id: 10, name: "Product10", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b9 },
+        { id: 11, name: "Product11", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b10 },
+        { id: 12, name: "Product12", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b11 },
+        { id: 13, name: "Product13", basePrice: 2400, discount: 50, finalPrice: 1200, pic:b12 },
+        { id: 14, name: "Product14", basePrice: 2400, discount: 50, finalPrice: 1200, pic: b13},
+        { id: 15, name: "Product15", basePrice: 2400, discount: 50, finalPrice: 1200, pic:i },
+        { id: 16, name: "Product16", basePrice: 2400, discount: 50, finalPrice: 1200, pic:i2 },
+        { id: 17, name: "Product17", basePrice: 2400, discount: 50, finalPrice: 1200, pic: i3},
+        { id: 18, name: "Product18", basePrice: 2400, discount: 50, finalPrice: 1200, pic: i4},
+        { id: 19, name: "Product19", basePrice: 2400, discount: 50, finalPrice: 1200, pic: i5},
+        { id: 20, name: "Product20", basePrice: 2400, discount: 50, finalPrice: 1200, pic:i6 }
     ]
     const [open, setOpen] = React.useState(false);
 
     const handleClickOpen = () => {
-      setOpen(true);
+        setOpen(true);
     };
-  
+
     const handleClose = () => {
-      setOpen(false);
+        setOpen(false);
     };
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
@@ -243,7 +262,7 @@ export default function MaterialUIExample() {
                         </Box>
                     </Toolbar>
                 </Container>
-            </AppBar>             
+            </AppBar>
             <Carousel>
                 {
                     items.map((item) => <img key={item.id} src={item.pic} height={500} width={"100%"} />)
@@ -326,68 +345,68 @@ export default function MaterialUIExample() {
                         </form>
                     </Paper>
                 </Grid>
-    
-      <Button variant="contained" onClick={handleClickOpen}>
-        Open form dialog
-      </Button>
-      <Dialog
-        open={open}
-        onClose={handleClose}
-        slotProps={{
-          paper: {
-            component: 'form',
-            onSubmit: (event) => {
-              event.preventDefault();
-              const formData = new FormData(event.currentTarget);
-              const formJson = Object.fromEntries(formData.entries());
-              const email = formJson.email;
-              console.log(email);
-              handleClose();
-            },
-          },
-        }}
-      >
-        <DialogTitle>Subscribe</DialogTitle>
-        <DialogContent>
-          <DialogContentText>
-            To subscribe to this website, please enter your email address here. We
-            will send updates occasionally.
-          </DialogContentText>
-          <TextField
-            autoFocus
-            required
-            margin="dense"
-            id="name"
-            name="email"
-            label="Email Address"
-            type="email"
-            fullWidth
-            variant="standard"
-          />
-        </DialogContent>
-        <DialogContent>
-          
-          <TextField
-            autoFocus
-            required
-            margin="dense"
-            id="name"
-            name="e"
-            label="Full Name"
-            type="email"
-            fullWidth
-            variant="standard"
-          />
-        </DialogContent>
-        
-        <DialogActions>
-          <Button onClick={handleClose}>Cancel</Button>
-          <Button type="submit">Subscribe</Button>
-        </DialogActions>
-      </Dialog>
-    
+
+                <Button variant="contained" onClick={handleClickOpen}>
+                    Open form dialog
+                </Button>
+                <Dialog
+                    open={open}
+                    onClose={handleClose}
+                    slotProps={{
+                        paper: {
+                            component: 'form',
+                            onSubmit: (event) => {
+                                event.preventDefault();
+                                const formData = new FormData(event.currentTarget);
+                                const formJson = Object.fromEntries(formData.entries());
+                                const email = formJson.email;
+                                console.log(email);
+                                handleClose();
+                            },
+                        },
+                    }}
+                >
+                    <DialogTitle>Subscribe</DialogTitle>
+                    <DialogContent>
+                        <DialogContentText>
+                            To subscribe to this website, please enter your email address here. We
+                            will send updates occasionally.
+                        </DialogContentText>
+                        <TextField
+                            autoFocus
+                            required
+                            margin="dense"
+                            id="name"
+                            name="email"
+                            label="Email Address"
+                            type="email"
+                            fullWidth
+                            variant="standard"
+                        />
+                    </DialogContent>
+                    <DialogContent>
+
+                        <TextField
+                            autoFocus
+                            required
+                            margin="dense"
+                            id="name"
+                            name="e"
+                            label="Full Name"
+                            type="email"
+                            fullWidth
+                            variant="standard"
+                        />
+                    </DialogContent>
+
+                    <DialogActions>
+                        <Button onClick={handleClose}>Cancel</Button>
+                        <Button type="submit">Subscribe</Button>
+                    </DialogActions>
+                </Dialog>
+
             </Grid>
-            
+
             {/* for delete button 
              <div>
                 <Button variant="contained" color="error" onClick={handleClickOpen}>
