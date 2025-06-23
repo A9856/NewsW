@@ -175,7 +175,7 @@ root5.render(
                 {/* <BootStrap/> */}
                 {/* <Boot/> */}
                 {/* <Paragraph/> */}
-                <BrowserRouter basename="/News/">
+                <BrowserRouter basename="/NewsW/">
                  <MaterialUIExample/>
                 </BrowserRouter>
                
