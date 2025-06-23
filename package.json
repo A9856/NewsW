@@ -1,5 +1,5 @@
 {
-  "homepage":" https://a9856.github.io/News/",
+  "homepage": " https://a9856.github.io/News/",
   "name": "second",
   "version": "0.1.0",
   "private": true,
@@ -11,8 +11,8 @@
     "@mui/material": "^6.4.5",
     "cra-template": "1.2.0",
     "lucide-react": "^0.474.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-material-ui-carousel": "^3.4.2",
     "react-router": "^7.2.0",
     "react-router-dom": "^7.2.0",
@@ -23,8 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
