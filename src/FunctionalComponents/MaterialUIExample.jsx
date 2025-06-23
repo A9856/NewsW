@@ -24,11 +24,11 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
-import img1 from "../../Assests/images/a.png"
+import a from "../../Assests/images/a.png"
 const pages = ['Home', 'About', 'Shop', 'Feature', 'Services', 'ContactUS',];
 const settings = ['Profile', 'Cart', 'Checkout', 'Logout'];
 var items = [
-    { pic: "img1" },
+    { pic: a },
     { pic: "/Images/b1.jpg" },
     { pic: "/Images/b2.webp" },
     { pic: "/Images/b3.jpg" },
@@ -58,7 +58,7 @@ var items = [
 
 export default function MaterialUIExample() {
     let data = [
-        { id: 1, name: "Product1", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "img1" },
+        { id: 1, name: "Product1", basePrice: 2400, discount: 50, finalPrice: 1200, pic: a },
         { id: 2, name: "Product2", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b1.jpg" },
         { id: 3, name: "Product3", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b2.webp" },
         { id: 4, name: "Product4", basePrice: 2400, discount: 50, finalPrice: 1200, pic: "/Images/b3.jpg" },
