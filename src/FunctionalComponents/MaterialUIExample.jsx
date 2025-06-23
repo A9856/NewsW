@@ -24,7 +24,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
-import a from "../../Assests/images/a.png"
+import a from "../Assests/images/a.png"
 const pages = ['Home', 'About', 'Shop', 'Feature', 'Services', 'ContactUS',];
 const settings = ['Profile', 'Cart', 'Checkout', 'Logout'];
 var items = [
