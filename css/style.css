@@ -1,0 +1,25 @@
+/* *{
+    margin: auto;
+}
+.main{
+    width: 100vw;height: 100vh;
+}
+.center{
+    width:80%;
+    margin: auto;
+}
+input{
+    width:80%;
+    margin: auto;
+} */
+/* p,
+h1,
+h2{
+    margin-bottom:10px;background-color: red;
+} */
+ .back{
+    background:linear-gradient(to right,gray,dimgray,black);
+ }
+.active{
+    border-bottom: 2px solid blue;
+}

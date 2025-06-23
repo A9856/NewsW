@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/NewsW/static/js/main.3e3cd23c.js",
+    "index.html": "/NewsW/index.html",
+    "main.3e3cd23c.js.map": "/NewsW/static/js/main.3e3cd23c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3e3cd23c.js"
+  ]
+}
